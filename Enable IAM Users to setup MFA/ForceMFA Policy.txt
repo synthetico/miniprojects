@@ -18,7 +18,7 @@
                 "iam:ChangePassword",
                 "iam:GetUser"
             ],
-            "Resource": "arn:aws:iam::*:user/${aws:username}"
+            "Resource": "arn:aws:iam::*:user/${aws:username}" #a variable to get users as input
         },
         {
             "Sid": "AllowManageOwnAccessKeys",
